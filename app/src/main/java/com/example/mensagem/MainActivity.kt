@@ -21,9 +21,13 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
+        //todo: Obter a data e hora do sistema
+
         val intent = Intent(this, MostraMensagemActivity::class.java)
         intent.putExtra(Companion.info_Extra_Mensagem, mensagem)
         startActivity(intent)
+
+        //todo: passar a informaçao da data/hora para a atividade MotraMensagem
     }
 
     companion object {

@@ -10,8 +10,10 @@ class MostraMensagemActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mostra_mensagem)
 
         val mensagem = intent.getStringExtra(MainActivity.info_Extra_Mensagem)
+        //todo: obter data e hora
 
         val textViewMensagem = findViewById<TextView>(R.id.textViewMensagem)
         textViewMensagem.text = mensagem
+        // todo: mostra a data/hora
     }
 }

@@ -3,4 +3,5 @@
     <string name="enviar">Send</string>
     <string name="mensagem">Message</string>
     <string name="mensagem_recebida">Message received</string>
+    <string name="mensagem_vazia">please specify message</string>
 </resources>
